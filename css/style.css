@@ -13039,6 +13039,8 @@ background-color: #954de1;
   outline: none;
   padding: 0px !important;
   border-radius: 50%;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .chatss-right-body-imagesss {
@@ -13814,6 +13816,7 @@ background-color: #954de1;
 
 /* ==== Sakib new 5 code end ==== */
 /* ==== Sakib new 6 code start ==== */
+
 
 .looking-btn-new {
   display: flex;
@@ -14606,6 +14609,9 @@ margin-bottom: 10px;
 }
 
 @media (max-width: 991.99px) {
+
+
+
   .dropdown ul li p {
         padding: 4px 8px;
         font-size: 12px;
