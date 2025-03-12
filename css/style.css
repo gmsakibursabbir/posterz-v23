@@ -13347,6 +13347,7 @@ background-color: #954de1;
   .container-xlx {
     padding: 0px 40px !important;
   }
+
 }
 
 @media (max-width: 1399px) {
@@ -13357,9 +13358,13 @@ background-color: #954de1;
   .new-members-com.com-new-members-com {
     gap: 30px !important;
   }
+      .parent-new-members-com{
+  margin-left: 30px !important;
+}
 }
 
 @media (max-width: 1280px) {
+
   .header-left-boosts h3 {
     margin-left: 14px;
     font-size: 16px;
@@ -13399,6 +13404,10 @@ background-color: #954de1;
 }
 
 @media (max-width: 991.99px) {
+  .new-profile-stats-community-parent .delet-buttton-com{
+    padding: 11px 40px;
+    font-size: 14px;
+}
   .com-inner-part {
   max-width: 100%;
           display: flex
@@ -13526,9 +13535,14 @@ background-color: #954de1;
   .newnewinput-wrapper-details {
     justify-content: center;
   }
+    .parent-new-members-com {
+    margin-left: 0px !important;
+    margin-top: 10px;
+}
 }
 
 @media (max-width: 575px) {
+
    .profiless-buttons {
     width: 90%;
   }
@@ -13818,6 +13832,10 @@ background-color: #954de1;
 /* ==== Sakib new 6 code start ==== */
 
 
+
+.parent-new-members-com{
+  margin-left: 50px;
+}
 .looking-btn-new {
   display: flex;
   width: 100%;
@@ -14957,7 +14975,9 @@ margin-bottom: 10px;
   #service-radius {
     width: 100%;
   }
-
+.new-dashboardx-profile h4 {
+  font-size: 18px;
+}
   .addPhone-button-wrapper {
     width: 100%;
   }
