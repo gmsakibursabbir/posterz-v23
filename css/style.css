@@ -16071,6 +16071,10 @@ padding: 16px;
     outline: none;
     border: 0;
   }
+.parent-postdetails-form .floating-placeholder, .parent-postdetails-form .textarea-wrapper .form-textarea {
+        font-size: 14px !important;
+    }
+
 
   .floating-placeholder,
   .textarea-wrapper .form-textarea {
