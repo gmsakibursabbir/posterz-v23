@@ -14623,12 +14623,23 @@ margin-bottom: 10px;
 
 /* 1024×768 */
 @media (max-width: 1024px) {
-  /* Your styles here */
+.preview-boxtwo {
+    flex-direction: column !important;
 }
-
+.priview-title-wrapper{
+  padding-top: 30px;
+}
+}
+@media (max-width: 990.99px){
+.priview-title-wrapper{
+  padding-top: 0px;
+}
+}
 @media (max-width: 991.99px) {
 
-
+.preview-boxtwo {
+  padding-top: 0px;
+}
 
   .dropdown ul li p {
         padding: 4px 8px;
