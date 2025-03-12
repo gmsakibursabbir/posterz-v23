@@ -6609,6 +6609,9 @@ margin-top: 16px;
     height: 100%;
     padding: 30px 30px 0;
   }
+  .parent-deal-deatils-container .product-hover-interactions {
+    flex-direction: column !important;
+  }
 
   #product-hover-interactions {
     flex-direction: column;
@@ -6685,7 +6688,12 @@ margin-top: 16px;
 }
 
 @media (max-width: 575px) {
-  
+  .not-find-parent .not-find h3 {
+    font-size: 14px;
+}
+  .email-template-body-content {
+    box-shadow: 2px 2px 9px 0 #d4e0ebcc, -2px -2px 5px 0 #fff;
+}
 .price-priver-inner-top-text h3 {
     font-size: 13px !important;
 }
@@ -10066,7 +10074,7 @@ select.boots-select {
 .stb-offcanvas {
   z-index: 1020;
   /* Lower than sticky bar */
-  height: 80vh !important;
+  height: 100vh !important;
   background: #fff;
 }
 
@@ -10475,11 +10483,13 @@ select.boots-select {
   background: #1f458a;
   box-shadow: 6px 6px 12px 0px rgba(212, 224, 235, 0.8), -6px -6px 12px 0px #fff;
 }
-
+.profile-img-new-parent .profile-img-new{
+  left: 7%;
+}
 .profile-img-new {
   position: relative;
   margin-top: -70px;
-  margin-left: 27%;
+  /* margin-left: 27%; */
   max-width: 150px;
   max-height: 150px;
   z-index: 1;
@@ -10554,9 +10564,16 @@ select.boots-select {
 
 .refferance-tagss {
   padding-top: 20px;
-  gap: 10px;
+  gap: 16px;
 }
-
+.refferance-tagss-parent .refferance-tagss{
+  display: flex;
+  flex-wrap: wrap;
+    gap: 16px;
+}
+.refferance-tagss-parent .refferance-tagss button{
+  margin-top: 10px;
+}
 .refferance-tagss button {
   color: #000;
   text-align: center;
@@ -10573,6 +10590,7 @@ select.boots-select {
   border: none;
   outline: none;
   padding: 6px 15px;
+  margin-top: 10px;
 }
 
 .post-card-litss {
@@ -10776,7 +10794,8 @@ select.boots-select {
 .edit-btns-groups {
   position: relative;
   top: -40px;
-  left: 1%;
+   left: 50%;
+    transform: translateX(-50%); 
   max-width: 370px;
 }
 
@@ -12030,7 +12049,7 @@ background-color: #954de1;
   min-height: 180px ;
   outline: 5px solid #f1f5f9;
   margin-top: -100px;
-  margin-left: 30%;
+  /* margin-left: 30%; */
   background-color: #fff;
 }
 
@@ -12044,7 +12063,8 @@ background-color: #954de1;
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin: 0 auto;
+     left: 50%;
+    transform: translateX(-50%);
 }
 
 .profile-card.profile-cardx.new-profile-cardx {
@@ -13396,7 +13416,7 @@ background-color: #954de1;
     min-height: 150px ;
     outline: 5px solid #f1f5f9;
     margin-top: -190px;
-    margin-left: 24%;
+    /* margin-left: 24%; */
     background-color: #fff;
   }
 }
@@ -13458,7 +13478,7 @@ background-color: #954de1;
     min-height: 180px ;
     outline: 5px solid #f1f5f9;
     margin-top: -100px;
-    margin-left: 36%;
+    /* margin-left: 36%; */
   }
 
   .chatss-right {
@@ -13511,7 +13531,7 @@ background-color: #954de1;
     min-height: 170px ;
     outline: 5px solid #f1f5f9;
     margin-top: -100px;
-    margin-left: 37%;
+    /* margin-left: 37%; */
   }
 
   .com-inner-part-item-squre-wrapper {
@@ -13606,7 +13626,7 @@ background-color: #954de1;
     min-height: 110px ;
     outline: 5px solid #f1f5f9;
     margin-top: -100px;
-    margin-left: 32%;
+    /* margin-left: 32%; */
   }
 
   .inner-infos-coms {
@@ -13739,7 +13759,7 @@ background-color: #954de1;
         min-height: 100px;
         outline: 5px solid #f1f5f9;
         margin-top: -100px;
-        margin-left: 28%;
+        /* margin-left: 28%; */
     }
 }
 
@@ -14610,11 +14630,21 @@ margin-bottom: 10px;
     margin-left: 14px;
     font-size: 16px;
   }
+       .profile-img-new-parent .profile-img-new{
+  left: 6%;
+  margin-top: -100px !important;
+}
 
 }
 
 /* 1199px */
 @media (max-width: 1199px) {
+  .parent-author-info h3{
+    font-size: 16px !important;
+  }
+  .post-actions-parent{
+  width: 90px;
+}
   .profile-img-new-parent .profile-img-new{
         margin-left: 18%;
   }
@@ -14629,6 +14659,9 @@ margin-bottom: 10px;
   .new-members-com {
     bottom: 10px;
   }
+       .profile-img-new-parent .profile-img-new{
+  left: -1%;
+}
 }
 
 /* 1024×768 */
@@ -14646,7 +14679,9 @@ margin-bottom: 10px;
 }
 }
 @media (max-width: 991.99px) {
-
+.profile-img-new-parent .profile-img-new{
+  left: 2%;
+}
 .preview-boxtwo {
   padding-top: 0px;
 }
@@ -14688,10 +14723,14 @@ margin-bottom: 10px;
   .header-flow-left-inner-button {
     position: absolute;
   }
+     .new-profile-img-new-parent .profile-img-new{
+  left: 2% !important;
+}
 }
 
 /* 767px */
 @media (max-width: 767px) {
+
   .parent-create-wrapper .createform-check-two {
     padding-left: 24px;
 }
@@ -14987,6 +15026,9 @@ margin-bottom: 10px;
 
 /* 575px */
 @media (max-width: 575px) {
+       .new-profile-img-new-parent .profile-img-new{
+  left: 4% !important;
+}
     .parent-modal-leve .leave-post-top-wrapper{
       padding: 26px !important;
     }
@@ -15000,6 +15042,9 @@ margin-bottom: 10px;
 padding: 16px;
     font-size: 14px;
   }
+    .profile-img-new-parent .profile-img-new{
+  left: 5%;
+}
       .profile-img-new-parent .profile-img-new{
         margin-left: 30%;
   }
@@ -15723,15 +15768,60 @@ padding: 16px;
   }
 }
 
+/* 480px       */
+@media (max-width: 480px        ) {
+      .post-actions-parent {
+        width: 70px;
+    }
+    .profile-img-new-parent .profile-img-new{
+  left: -1%;
+}
+}
+/* 430px       */
+@media (max-width: 430px        ) {
+    .profile-img-new-parent .profile-img-new{
+  left: -4%;
+}
+       .new-profile-img-new-parent .profile-img-new{
+  left: -4% !important;
+}
+}
+/* 428px     */
+@media (max-width: 428px      ) {
+    .profile-img-new-parent .profile-img-new{
+  left: -2%;
+}
+       .new-profile-img-new-parent .profile-img-new{
+  left: -4% !important;
+}
+}
+/* 414px   */
+@media (max-width: 414px    ) {
+    .profile-img-new-parent .profile-img-new{
+  left: -2%;
+}
+}
+/* 393px */
+@media (max-width: 393px  ) {
+     .post-actions-parent {
+        width: 60px;
+    }
+    .profile-img-new-parent .profile-img-new{
+  left: -5%;
+}
+}
 /* 389px */
 @media (max-width: 389px) {
+  .profile-img-new-parent .profile-img-new{
+  left: -6%;
+}
     .parent-view-details-container .product-img-wraper , .parent-view-details-container .view-product-details {
     padding: 10px;
   }
 
-        .profile-img-new-parent .profile-img-new{
+        /* .profile-img-new-parent .profile-img-new{
         margin-left: 36%;
-  }
+  } */
    .ads-preview-bottom-btn-email {
      max-width: 70px  ;
     padding: 6px;
@@ -15785,8 +15875,14 @@ padding: 16px;
 }
 
 @media (max-width: 375px) {
+   .new-profile-img-new-parent .profile-img-new{
+  left: -7% !important;
+}
+   .profile-img-new-parent .profile-img-new{
+  left: -5%;
+}
          .profile-img-new-parent .profile-img-new{
-        margin-left: 36%;
+        margin-left: 40%;
   }
   .new-notification-btns .new-read-msg-new-p {
         font-size: 9px;
@@ -15919,7 +16015,7 @@ padding: 16px;
     min-height: 110px ;
     outline: 3px solid #f1f5f9;
     margin-top: -90px;
-    margin-left: 28%;
+    left: -5px;
   }
 
   .nav-pillsx .nav-linkx {
@@ -15929,7 +16025,15 @@ padding: 16px;
 }
 
 @media (max-width: 359px) {
-
+      .saveBtnTxt {
+        font-size: 12px;
+    }
+     .new-profile-img-new-parent .profile-img-new{
+  left: -10% !important;
+}
+ .profile-img-new-parent .profile-img-new{
+  left: -7%;
+}
   .post-card-litss-buttons,
   .post-card-litss-buttons-active {
     padding: 3.75px 8px;
@@ -16509,7 +16613,7 @@ padding: 16px;
   .profile-img.profile-img-new.new-profile-com {
     min-width: 140px ;
     min-height: 140px ;
-    margin-left: 26%;
+    /* margin-left: 26%; */
   }
 
   .registration-info-description {
