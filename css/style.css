@@ -6282,7 +6282,7 @@ margin-top: 16px;
   }
 
   .saveBtn {
-    padding: 14px 50px;
+    padding: 14px 40px;
     margin: 20px auto 0;
   }
 
@@ -6685,6 +6685,10 @@ margin-top: 16px;
 }
 
 @media (max-width: 575px) {
+  
+.price-priver-inner-top-text h3 {
+    font-size: 13px !important;
+}
   #headerFlowNew {
     padding: 18px 20px;
     min-height: 50px;
@@ -13377,7 +13381,7 @@ background-color: #954de1;
   .nav-linkx-svg {
     width: 20px;
     height: 20px;
-    margin-top: 0px;
+    margin-top: -4px;
     margin-right: 5px;
   }
 
@@ -13404,6 +13408,9 @@ background-color: #954de1;
 }
 
 @media (max-width: 991.99px) {
+  .nav-linkx-svg {
+    margin-top: -6px;
+  }
   .new-profile-stats-community-parent .delet-buttton-com{
     padding: 11px 40px;
     font-size: 14px;
@@ -13463,6 +13470,9 @@ background-color: #954de1;
 }
 
 @media (max-width: 767px) {
+   .nav-linkx-svg {
+    margin-top: 0px;
+  }
   .overflow-player-wrappers {
     width: 100% !important;
     max-width: 580px;
@@ -15884,7 +15894,7 @@ padding: 16px;
   .post-card-litss-buttons,
   .post-card-litss-buttons-active {
     padding: 3.75px 8px;
-    font-size: 9px;
+    font-size: 11px;
   }
 
   .profile-img-new {
