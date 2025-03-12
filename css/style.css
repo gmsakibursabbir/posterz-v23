@@ -7027,7 +7027,7 @@ margin-top: 16px;
 
   .single-com-box {
     box-shadow: 6px 6px 12px 0 #d4e0eb;
-    padding: 16px;
+    padding: 20px;
   }
 
   .seeMore button {
@@ -14966,6 +14966,19 @@ margin-bottom: 10px;
 
 /* 575px */
 @media (max-width: 575px) {
+    .parent-modal-leve .leave-post-top-wrapper{
+      padding: 26px !important;
+    }
+    .parent-modal-leve .leave-post-top-wrapper p{
+     font-size: 15px;
+    }
+    .parent-modal-leve .leave-post-top-wrapper span{
+     font-size: 13px;
+    }
+  .parent-modal-leve  button{
+padding: 16px;
+    font-size: 14px;
+  }
       .profile-img-new-parent .profile-img-new{
         margin-left: 30%;
   }
