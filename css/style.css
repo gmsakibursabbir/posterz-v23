@@ -12,7 +12,9 @@ body {
 a {
   text-decoration: none;
 }
-
+.w-0 {
+  width: 0 !important;
+}
 h1,
 h2,
 h3,
@@ -14952,6 +14954,9 @@ margin-bottom: 10px;
 
   .addPhone-button-wrapper {
     width: 100%;
+  }
+  .parent-chatss-right-input .addPhone-button-wrapper {
+       width: 38px;
   }
 
   .edit-btns {
